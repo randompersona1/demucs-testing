@@ -8,8 +8,8 @@ dependencies = [
     "demucs>=4.0.1",
     "numpy<2",
     "soundfile==0.12.1",
-    "torch==2.7.0",
-    "torchaudio==2.7.0",
+    "torch==2.2.2",
+    "torchaudio==2.2.2",
 ]
 
 [tool.uv.sources]
@@ -27,5 +27,5 @@ explicit = true
 
 [[tool.uv.index]]
 name = "pytorch-cuda"
-url = "https://download.pytorch.org/whl/cu128"
+url = "https://download.pytorch.org/whl/cu121"
 explicit = true
